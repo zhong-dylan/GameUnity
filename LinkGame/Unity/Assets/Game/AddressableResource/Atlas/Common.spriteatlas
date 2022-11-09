@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Common
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 12
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 12
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 432fbd5c199bf4993bd20071a0c59dbe, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 92497200ab7f0584fa58871994a50858, type: 3}
+  - {fileID: 21300000, guid: 955a6730271cc2240bb090c264bf459d, type: 3}
+  - {fileID: 21300000, guid: dbcc8f3060cf8e74996ef1ba46a428c3, type: 3}
+  - {fileID: 21300000, guid: 0806d060a240ca6468fb359d739c7758, type: 3}
+  - {fileID: 21300000, guid: 1b070a9071c40114c83964d47755c2c0, type: 3}
+  - {fileID: 21300000, guid: a659cdf07744db04786ca6d3824f3ce0, type: 3}
+  - {fileID: 21300000, guid: 5343b7115bd89c64982db3f2216a0c0f, type: 3}
+  - {fileID: 21300000, guid: 00863521d2f889f4280fdd4715d8bb3c, type: 3}
+  - {fileID: -873678877, guid: bcc4dc21132ab4890a4e8fe0caaf150e, type: 3}
+  - {fileID: 21300000, guid: 3ab4ecb1189bd194ba192985f2b75c37, type: 3}
+  - {fileID: 21300000, guid: 2caa25f1d02437a408d738974f1993a0, type: 3}
+  - {fileID: 21300000, guid: 2c6b152263244e940b53e79d232a085e, type: 3}
+  - {fileID: 21300000, guid: e32a9a52583e31f4eaec0f9b86d80b24, type: 3}
+  - {fileID: 21300000, guid: 9f089b6224024f349a71c716340631e4, type: 3}
+  - {fileID: 21300000, guid: 96df5282e804a6f488e4b55e33dbbef2, type: 3}
+  - {fileID: -1822948358, guid: 7323f8c2f7e4b40e59fe269123cc0114, type: 3}
+  - {fileID: 21300000, guid: 166b89c253b5c5f42823a753d2db9770, type: 3}
+  - {fileID: 21300000, guid: 87ffe403ed1efd9458e0e74d12890012, type: 3}
+  - {fileID: 21300000, guid: 11d5273305926bc43be579590ce733ca, type: 3}
+  - {fileID: 21300000, guid: 720936d3887635548b5eca76a7978798, type: 3}
+  - {fileID: 21300000, guid: e54dfb04204381642a400a60368a1aa3, type: 3}
+  - {fileID: 21300000, guid: b8ee956496fbb764e91b82651871348e, type: 3}
+  - {fileID: 21300000, guid: 508b44a41d7e0e243861e8ab812817ea, type: 3}
+  - {fileID: 21300000, guid: 76caf5e4ca559764484493b1342b0952, type: 3}
+  - {fileID: 21300000, guid: c2e882058c776c244adf87fa24d5282f, type: 3}
+  - {fileID: -1733258890, guid: ea495175764d0476abc6086060aea8ab, type: 3}
+  - {fileID: 21300000, guid: 89da05755b249284ca310478372eabce, type: 3}
+  - {fileID: 21300000, guid: bc977c8645765db46bf1a1b686bff826, type: 3}
+  - {fileID: 21300000, guid: 686161071ef7775448055f798bea6d70, type: 3}
+  - {fileID: 21300000, guid: 2fc5c74761d13b5459b321fc1b86c6ac, type: 3}
+  - {fileID: 21300000, guid: afad3987ab25afe41b19df1deba9b2e6, type: 3}
+  - {fileID: 21300000, guid: 3df3c7a773f95f5429f29f0c38bee4a1, type: 3}
+  - {fileID: 21300000, guid: fc9d7ac77b80e424d9c6d2890f9af52b, type: 3}
+  - {fileID: 21300000, guid: 36213be7768037e44898d0e8dbee419b, type: 3}
+  - {fileID: 21300000, guid: bd0bdd5816e276349a77710399b37ef5, type: 3}
+  - {fileID: 21300000, guid: 19148d683a6f63e45a60abf32cacfd65, type: 3}
+  - {fileID: 21300000, guid: df9be07827def45438516120da142677, type: 3}
+  - {fileID: 21300000, guid: 97362c8821fe2f7449927570ad6d4d6a, type: 3}
+  - {fileID: 21300000, guid: dfd310b82f14c254c82e8b1ff3f84a08, type: 3}
+  - {fileID: 21300000, guid: aba578b8d0999904d909e8aca956fb2f, type: 3}
+  - {fileID: 21300000, guid: f5b592c8f7ef05841877f70aee73a432, type: 3}
+  - {fileID: 21300000, guid: 0248b3c85e44c4544b4010a3b3db603b, type: 3}
+  - {fileID: 21300000, guid: 329417092e459a9429d9a5607a4f5137, type: 3}
+  - {fileID: 21300000, guid: a5f91f39fdd458f47931e2dfd4060c36, type: 3}
+  - {fileID: 21300000, guid: 233e23c919e7ad548a3ffa20d2c1d7be, type: 3}
+  - {fileID: -107748374, guid: fbd310d9e36aa4051b6a0e34b9448d48, type: 3}
+  - {fileID: 21300000, guid: c44178f904e583e45b2c0bce3d8db6e4, type: 3}
+  - {fileID: 21300000, guid: 126ffaf9352fa994199aaee3b0737369, type: 3}
+  - {fileID: 21300000, guid: c2feaa3a1e949f0419c7903412236463, type: 3}
+  - {fileID: 21300000, guid: 9a82544a4e8ea82448062dac5853f931, type: 3}
+  - {fileID: 21300000, guid: cdf0ea7a2f0ce164282bb46f09829e73, type: 3}
+  - {fileID: 21300000, guid: 7524ab7a7f453474dbfc0e05e8b92539, type: 3}
+  - {fileID: 21300000, guid: e2e3508a5f78a13478d11608e46e2f26, type: 3}
+  - {fileID: 21300000, guid: 8593908a37a47a44f9c674317c1aec0a, type: 3}
+  - {fileID: -1927349251, guid: 7ebda0cac9c304e97bebaeeee74d9226, type: 3}
+  - {fileID: 21300000, guid: f5a1b3ca917a0fa4cbf5695affbb95cf, type: 3}
+  - {fileID: 21300000, guid: 11d9e83b35b495c40bfca193fb7d40f0, type: 3}
+  - {fileID: 21300000, guid: 22fa643c384b4aa44bf1ff7d02b95284, type: 3}
+  - {fileID: 21300000, guid: 65df13acd5ced294ba181461f2871ff7, type: 3}
+  - {fileID: 21300000, guid: 5aabaadcd5e8dce4296119d032114c28, type: 3}
+  - {fileID: 21300000, guid: 5275457d13ac65e47ab60412cb4ee17b, type: 3}
+  - {fileID: 21300000, guid: adaac68d8e5d693499597113889d11d3, type: 3}
+  - {fileID: 21300000, guid: d1847bbd20774924aa0123677274faf0, type: 3}
+  - {fileID: 21300000, guid: 1b2fc6ed4c01f0149b05a1da1de7003f, type: 3}
+  - {fileID: 21300000, guid: 720ac4fdbef3a144cb48fa9a4e18f746, type: 3}
+  - {fileID: 21300000, guid: 2fc7ab0ea198d1f47a1cb7384da64a94, type: 3}
+  - {fileID: 21300000, guid: eca1954e3092f6c468c69c10d19a6413, type: 3}
+  - {fileID: 21300000, guid: 148b738ee04708747bb54f1952603e76, type: 3}
+  - {fileID: 21300000, guid: 7bfba88e1fb78d74e9146d5f44043c3a, type: 3}
+  - {fileID: 21300000, guid: 50890b2fdca927347b70c1039fe57099, type: 3}
+  - {fileID: 21300000, guid: da93bfaf6314fca4a805281edd375d33, type: 3}
+  - {fileID: 21300000, guid: 811644cf02bf4fe4ba4907e138732f27, type: 3}
+  - {fileID: 21300000, guid: bc89b0dfa8a57e84caf3179d1996f46e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - icon_coins
+  - flat_icon_fcb
+  - flat_icon_play
+  - flat_icon_check
+  - icon_heart
+  - flat_icon_back
+  - UI_Icon_Mushroom
+  - item_slot
+  - font_classic_1
+  - btn_-_hov
+  - icon_shovel
+  - UI_Icon_Gas
+  - flat_icon_twitter
+  - btn_round_big_hover
+  - UI_Icon_Gem
+  - font_level_0
+  - UI_Icon_scroll
+  - UI_Icon_Crown
+  - btn_-_reg
+  - UI_Icon_Potion_1
+  - icon_candy
+  - UI_Icon_bomb
+  - icon_ball
+  - UI_Icon_Meat_2
+  - UI_Icon_Potion_4
+  - font_task_0
+  - icon_cup-15
+  - flat_icon_info
+  - UI_Icon_Journal
+  - icon_diamond
+  - icon_sword
+  - UI_Icon_Meat_1
+  - UI_Icon_Coin
+  - UI_Icon_Berry
+  - btn_+_hov
+  - item_slot_hover
+  - btn_round_small
+  - UI_Icon_Cheese
+  - icon_apple
+  - icon_balloon
+  - UI_Icon_Hourglass
+  - icon_flower
+  - icon_green_back
+  - icon_paperclip
+  - 1button_green_middle
+  - font_share_0
+  - icon_bomb
+  - icon_lemon
+  - icon_star
+  - UI_Icon_Bread
+  - btn_round_big_pressed
+  - UI_Icon_Clover_Leaf
+  - flat_icon_menu
+  - icon_button
+  - font_sort_0
+  - btn_+_pressed
+  - icon_cup
+  - btn_round_small_hover
+  - icon_cherries
+  - UI_Icon_Potion_3
+  - btn_+_reg
+  - UI_Icon_Apple
+  - btn_-_pressed
+  - flat_icon_close
+  - UI_Icon_Fish
+  - icon_blue_back
+  - UI_Icon_Potion_2
+  - icon_cryon
+  - btn_round_big
+  - icon_strawberry
+  - flat_icon_question
+  - btn_round_small_pressed
+  - flat_icon_lock
+  m_RenderDataMap: {}
+  m_Tag: Common
+  m_IsVariant: 0
