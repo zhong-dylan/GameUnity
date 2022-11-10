@@ -1,11 +1,32 @@
+﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using Framework;
+using System;
 
-public class GameManager : MonoBehaviour
+[Serializable]
+public enum GAME_MODE
 {
-    public GameManager instance
+    EASY,
+    NORMAL,
+    HARD
+}
+
+public class GameManager : SingletonComponent<GameManager>
+{
+    public List<Sprite> cellIconList = new List<Sprite>();
+
+    private GAME_MODE _gameMode = GAME_MODE.EASY;
+
+    void Start()
     {
-        get { return this; }
+        SoundManager.Instance.Play("bg");
+    }
+
+    public void EnterGame(string mode)
+    {
+        _gameMode = GAME_MODE.EASY;
+        ScreenManager.Instance.Show("game");
     }
 }

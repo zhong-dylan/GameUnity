@@ -56,8 +56,53 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Framework/Scripts/Utilities/SingletonScriptableObject.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/GuidePostEvent.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/SimpleJSON.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/Worker.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/SingletonComponent.cs" />
+    <Compile Include="Assets/Framework/Scripts/Screen/ScreenBackButton.cs" />
+    <Compile Include="Assets/Framework/Scripts/Currency/NotEnoughCurrencyPopup.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/InvokeOnMainThread.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/CoroutineStarter.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/SettingsPopup.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/AdjustRectTransformForSafeArea.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/Utilities.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ExpandableListHandler.cs" />
+    <Compile Include="Assets/Framework/Scripts/Currency/CurrencyText.cs" />
+    <Compile Include="Assets/Framework/Scripts/Screen/ScreenManager.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/PoolObject.cs" />
+    <Compile Include="Assets/Framework/Scripts/Events/EventManager.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/UILine.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/UIAnimation.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ExpandableListItem.cs" />
+    <Compile Include="Assets/Framework/Scripts/Save/SaveManager.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ProgressRing.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ToggleSlider.cs" />
+    <Compile Include="Assets/Framework/Scripts/Sound/SoundManager.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/OpenLinkButton.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/Logger.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/Vector2Extension.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/WorkerBehaviour.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/SpawnObject.cs" />
+    <Compile Include="Assets/Framework/Scripts/Sound/ButtonSound.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/RecyclableListHandler.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ProgressBar.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ToggleSliderHandle.cs" />
+    <Compile Include="Assets/Framework/Scripts/Screen/Screen.cs" />
+    <Compile Include="Assets/Framework/Scripts/Currency/CurrencyManager.cs" />
+    <Compile Include="Assets/Framework/Scripts/Popup/Popup.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/UIMonoBehaviour.cs" />
+    <Compile Include="Assets/Framework/Scripts/Save/ISaveable.cs" />
+    <Compile Include="Assets/Framework/Scripts/Popup/PopupManager.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/UIAnimationBehaviour.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ClickableListItem.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/ObjectPool.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/ObjectSpawner.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/RecyclableListItem.cs" />
     <Compile Include="Assets/Game/Scripts/GameManager.cs" />
-    <Compile Include="Assets/Game/Scripts/UIManager.cs" />
+    <Compile Include="Assets/Game/Scripts/Cell.cs" />
+    <Compile Include="Assets/Game/Scripts/GameBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -65,6 +110,7 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/Sweets Icon Pack/READ ME.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
