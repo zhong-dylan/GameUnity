@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 17411e8510fee44ea9153d57d4fb0bf9
+  m_SerializeEntries:
+  - m_GUID: 4321621437a6d4aa080aad63f1dad305
+    m_Address: atlas/common.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ceae09c7b64b94c12af0240a6190413c
+    m_Address: audio/bg.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f51804f7be0741bd8fe075a02d23e9c
+    m_Address: audio/btn_click.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c9d2b4a098d7422895affcccff01a09
+    m_Address: audio/get.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2bdfbcbb0c17d405bb013dd137326780
+    m_Address: audio/getgold.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 710696aade6ea4370ace460b9b7f119a
+    m_Address: image/background.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa835c164e0f14f4e98660293c541d2f
+    m_Address: prefabs/camera/cameraui.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b024cef8769ed4f08bebc7ad1b2e78cd
+    m_Address: prefabs/manager/gamemanager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e81bc4cec2a343239a7753ce93735f1
+    m_Address: prefabs/manager/savemanager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d9db4f27f4c7477d86da6f1ad110d49
+    m_Address: prefabs/manager/screenmanager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c28d148e3b39420fa6336893e13c86c
+    m_Address: prefabs/manager/soundmanager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8aa55e9c2c90d4b8bb9e4b9cda5a6b8c
+    m_Address: prefabs/screen/cell.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4db641d6aedf143bdb90367e5db073d6
+    m_Address: prefabs/screen/gamescreen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 61005fff28ad94a3a9246227c01eff51
+    m_Address: prefabs/screen/gold.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b93dda52dc01b4c0fa51f03e38278fd5
+    m_Address: prefabs/screen/background.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2fc86e3e8c98b4befa8e856c61ca9e1a
+    m_Address: prefabs/screen/selectscreen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1397844f97e7d4fbfb1438cc44c0e234
+    m_Address: prefabs/screen/titlescreen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da73bee9a7b6f416ea24f26c1abd3dcc
+    m_Address: prefabs/system/eventsystem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a05c3aa54835e48b6bd9f88da96b5dd8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ca9161441ab304c9f9d147ee4eb755a7, type: 2}
+    - {fileID: 11400000, guid: 9ce73be2457a1465b833133b7a9aac46, type: 2}

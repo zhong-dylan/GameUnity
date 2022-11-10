@@ -46,6 +46,15 @@ namespace Framework
 			SetInstance();
 		}
 
+		protected virtual IEnumerator Start()
+		{
+			yield return Initialize();
+		}
+
+		protected virtual IEnumerator Initialize()
+        {
+			yield break;
+        }
 		#endregion
 
 		#region Public Methods

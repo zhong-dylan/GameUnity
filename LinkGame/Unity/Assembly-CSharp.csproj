@@ -56,53 +56,58 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Framework/Scripts/Utilities/SingletonScriptableObject.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/GuidePostEvent.cs" />
+    <Compile Include="Assets/Framework/Scripts/System/CONST_DATA.cs" />
     <Compile Include="Assets/Framework/Scripts/Utilities/SimpleJSON.cs" />
-    <Compile Include="Assets/Framework/Scripts/Utilities/Worker.cs" />
-    <Compile Include="Assets/Framework/Scripts/Utilities/SingletonComponent.cs" />
+    <Compile Include="Assets/Framework/Scripts/Screen/UIManager.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/UIAnimation.cs" />
+    <Compile Include="Assets/Framework/Scripts/Sound/SoundManager.cs" />
     <Compile Include="Assets/Framework/Scripts/Screen/ScreenBackButton.cs" />
-    <Compile Include="Assets/Framework/Scripts/Currency/NotEnoughCurrencyPopup.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/RecyclableListItem.cs" />
+    <Compile Include="Assets/Framework/Scripts/Sound/ButtonSound.cs" />
+    <Compile Include="Assets/Game/Scripts/Cell.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/SingletonComponent.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/RecyclableListHandler.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/UILine.cs" />
     <Compile Include="Assets/Framework/Scripts/Utilities/InvokeOnMainThread.cs" />
-    <Compile Include="Assets/Framework/Scripts/Utilities/CoroutineStarter.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/SettingsPopup.cs" />
-    <Compile Include="Assets/Framework/Scripts/Utilities/AdjustRectTransformForSafeArea.cs" />
-    <Compile Include="Assets/Framework/Scripts/Utilities/Utilities.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/ExpandableListHandler.cs" />
     <Compile Include="Assets/Framework/Scripts/Currency/CurrencyText.cs" />
+    <Compile Include="Assets/Game/Scripts/GameBehavior.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ProgressRing.cs" />
+    <Compile Include="Assets/Framework/Scripts/Screen/ScreenContext.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/Worker.cs" />
+    <Compile Include="Assets/Framework/Scripts/System/Loader.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ToggleSliderHandle.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/OpenLinkButton.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/UIAnimationBehaviour.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/Utilities.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/Logger.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ProgressBar.cs" />
+    <Compile Include="Assets/Framework/Scripts/Popup/Popup.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ClickableListItem.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/SpawnObject.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/SettingsPopup.cs" />
+    <Compile Include="Assets/Framework/Scripts/Save/ISaveable.cs" />
+    <Compile Include="Assets/Framework/Scripts/System/Main.cs" />
+    <Compile Include="Assets/Framework/Scripts/Currency/NotEnoughCurrencyPopup.cs" />
     <Compile Include="Assets/Framework/Scripts/Screen/ScreenManager.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/SingletonScriptableObject.cs" />
     <Compile Include="Assets/Framework/Scripts/Utilities/PoolObject.cs" />
     <Compile Include="Assets/Framework/Scripts/Events/EventManager.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/UILine.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/UIAnimation.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/ExpandableListItem.cs" />
     <Compile Include="Assets/Framework/Scripts/Save/SaveManager.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/ProgressRing.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/ToggleSlider.cs" />
-    <Compile Include="Assets/Framework/Scripts/Sound/SoundManager.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/OpenLinkButton.cs" />
-    <Compile Include="Assets/Framework/Scripts/Utilities/Logger.cs" />
-    <Compile Include="Assets/Framework/Scripts/Utilities/Vector2Extension.cs" />
     <Compile Include="Assets/Framework/Scripts/Utilities/WorkerBehaviour.cs" />
-    <Compile Include="Assets/Framework/Scripts/Utilities/SpawnObject.cs" />
-    <Compile Include="Assets/Framework/Scripts/Sound/ButtonSound.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/RecyclableListHandler.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/ProgressBar.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/ToggleSliderHandle.cs" />
-    <Compile Include="Assets/Framework/Scripts/Screen/Screen.cs" />
-    <Compile Include="Assets/Framework/Scripts/Currency/CurrencyManager.cs" />
-    <Compile Include="Assets/Framework/Scripts/Popup/Popup.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/UIMonoBehaviour.cs" />
-    <Compile Include="Assets/Framework/Scripts/Save/ISaveable.cs" />
-    <Compile Include="Assets/Framework/Scripts/Popup/PopupManager.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/UIAnimationBehaviour.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/ClickableListItem.cs" />
-    <Compile Include="Assets/Framework/Scripts/Utilities/ObjectPool.cs" />
-    <Compile Include="Assets/Framework/Scripts/Utilities/ObjectSpawner.cs" />
-    <Compile Include="Assets/Framework/Scripts/UI/RecyclableListItem.cs" />
     <Compile Include="Assets/Game/Scripts/GameManager.cs" />
-    <Compile Include="Assets/Game/Scripts/Cell.cs" />
-    <Compile Include="Assets/Game/Scripts/GameBehavior.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ExpandableListHandler.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/UIMonoBehaviour.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/AdjustRectTransformForSafeArea.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/ObjectPool.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ExpandableListItem.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/CoroutineStarter.cs" />
+    <Compile Include="Assets/Framework/Scripts/Screen/Screen.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/GuidePostEvent.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/ObjectSpawner.cs" />
+    <Compile Include="Assets/Framework/Scripts/UI/ToggleSlider.cs" />
+    <Compile Include="Assets/Framework/Scripts/Currency/CurrencyManager.cs" />
+    <Compile Include="Assets/Framework/Scripts/Popup/PopupManager.cs" />
+    <Compile Include="Assets/Framework/Scripts/Utilities/Vector2Extension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -750,14 +755,11 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    <Reference Include="Unity.AssetGraph.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.AssetGraph.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    <Reference Include="Unity.AssetBundleBrowser.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.AssetBundleBrowser.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
@@ -768,14 +770,68 @@
     <Reference Include="Unity.2D.PixelPerfect">
       <HintPath>Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    <Reference Include="UnityEditor.CacheServer">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Path.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AssetGraph">
+      <HintPath>Library/ScriptAssemblies/Unity.AssetGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
@@ -789,47 +845,29 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
       <HintPath>Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
@@ -837,14 +875,8 @@
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
@@ -867,17 +899,17 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>

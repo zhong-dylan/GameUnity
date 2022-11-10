@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec4882d68a9346b3b5f8ecf1e38a534, type: 3}
+  m_Name: Asset Graph
+  m_EditorClassIdentifier: 
+  m_allNodes:
+  - m_name: Load From Directory
+    m_id: 21334351-00b9-424b-9532-9cbdeb6b7f91
+    m_x: 96
+    m_y: 312
+    m_nodeInstance:
+      m_className: UnityEngine.AssetGraph.Loader, Unity.AssetGraph.Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_instanceData: B64|eyJtX2xvYWRQYXRoIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiJHYW1lL0FkZHJlc3NhYmxlUmVzb3VyY2UifV19LCJtX2xvYWRQYXRoR3VpZCI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjoiMjVlMTA5NDRjMjQ0YzQ2NzZhMzY1ZDZkZDFmNDAxYTAifV19LCJtX2lnbm9yZVBhdHRlcm5zIjpbXSwibV9yZXNwb25kVG9Bc3NldENoYW5nZSI6dHJ1ZX0=
+    m_inputPoints: []
+    m_outputPoints:
+    - id: 9cf573df-8fc8-4f02-998c-d93583500d9f
+      label: +
+      parentId: 21334351-00b9-424b-9532-9cbdeb6b7f91
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 157
+        y: 33.5
+        width: 10
+        height: 23
+  - m_name: Set Asset Address
+    m_id: 14a636a7-1753-4e0a-95c8-539af451684c
+    m_x: 348
+    m_y: 216
+    m_nodeInstance:
+      m_className: UnityEngine.AssetGraph.AddressableAssetAddress, Unity.AssetGraph.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      m_instanceData: B64|eyJtX2lzQWRkcmVzc2FibGUiOnRydWUsIm1faXNBbGxMb3dlckNhc2UiOnRydWUsIm1fbWF0Y2hQYXR0ZXJuIjoiQXNzZXRzL0dhbWUvQWRkcmVzc2FibGVSZXNvdXJjZS8iLCJtX2FkZHJlc3NQYXR0ZXJuIjoiIn0=
+    m_inputPoints:
+    - id: e053f71d-2666-413d-b999-ab8153e960e4
+      label: '-'
+      parentId: 14a636a7-1753-4e0a-95c8-539af451684c
+      isInput: 1
+      buttonRect:
+        serializedVersion: 2
+        x: 0
+        y: 30.5
+        width: 21
+        height: 29
+    m_outputPoints:
+    - id: 1def232f-951e-4464-8b8d-d9ebe741cbf0
+      label: +
+      parentId: 14a636a7-1753-4e0a-95c8-539af451684c
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 144
+        y: 33.5
+        width: 10
+        height: 23
+  m_allConnections:
+  - m_id: 4c22d003-cf43-4f57-bc10-966b50b03968
+    m_fromNodeId: 21334351-00b9-424b-9532-9cbdeb6b7f91
+    m_fromNodeConnectionPointId: 9cf573df-8fc8-4f02-998c-d93583500d9f
+    m_toNodeId: 14a636a7-1753-4e0a-95c8-539af451684c
+    m_toNodeConnectionPoiontId: e053f71d-2666-413d-b999-ab8153e960e4
+    m_label: +
+  m_lastModified: 133125250352974080
+  m_version: 2
+  m_graphDescription: 
+  m_useAsAssetPostprocessor: 0
+  m_graphExecOrderPriority: 0
