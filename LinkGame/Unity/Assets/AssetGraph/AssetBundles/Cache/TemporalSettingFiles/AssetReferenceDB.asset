@@ -21,4 +21,204 @@ MonoBehaviour:
     m_importFrom: Assets/AssetGraph/AssetBundles/Cache/TemporalSettingFiles/AssetReferenceDB.asset
     m_exportTo: 
     m_variantName: 
+  - m_assetDatabaseId: edd5ae09966936a4aa2e7ef3975fa506
+    m_importFrom: Assets/Framework/Editor/Excel/ab_test.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 58a77184ee2694f8ebc9bea8970d294a
+    m_importFrom: Assets/Framework/Editor/Excel/dailyStageExpand.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: b8f3a75f52d31499285fc15b863d918f
+    m_importFrom: Assets/Framework/Editor/Excel/tileColorful.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 35740d7d58d384473bee4aae9ca6dc58
+    m_importFrom: Assets/Framework/Editor/Excel/EditFormation.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: cd5198b176409c745bc4cd6eba9c025c
+    m_importFrom: Assets/Framework/Editor/Excel/shop_weight.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e51c46cfe40164c82b6817267b36e79b
+    m_importFrom: Assets/Framework/Editor/Excel/sound.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: be31f889dfec98d49b87028f0d0d48b3
+    m_importFrom: Assets/Framework/Editor/Excel/petList.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: c2fb0cea6207dad4c84ae7bee5b4f49d
+    m_importFrom: Assets/Framework/Editor/Excel/NameList.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 09edeef1677574883b79e88504ab7a38
+    m_importFrom: Assets/Framework/Editor/Excel/dailyStageExpand2.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 55167db96faf3453088f3798d835ecab
+    m_importFrom: Assets/Framework/Editor/Excel/task_boxNormal.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: fc8179c1645fe4e089b4078929241f4d
+    m_importFrom: Assets/Framework/Editor/Tools/symbols.xml
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 25657df0cf7274f00ae193e4639faf72
+    m_importFrom: Assets/Framework/Editor/Excel/task_gold.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: b25dc30ed036d35408b444b9a2d63d6e
+    m_importFrom: Assets/Framework/Editor/Excel/GoldenTrip.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d593df7340f86f942b5dc5cf6b7d6fb4
+    m_importFrom: Assets/Framework/Editor/Excel/channel_version.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: f9bdecfac45d19e4184024e550b1725a
+    m_importFrom: Assets/Framework/Editor/Excel/product.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e292cc462cd8847939603f25876a9f6c
+    m_importFrom: Assets/Framework/Editor/Excel/room.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 77f2b13165a89471eb813da9f71c8c6a
+    m_importFrom: Assets/Framework/Editor/Excel/common.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4a361712a5d3c9541b900a752a12d770
+    m_importFrom: Assets/Framework/Editor/Excel/petTask.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: d5725cf104ff74831aa0b922d95f952c
+    m_importFrom: Assets/Framework/Editor/Formwork/excelFormwork.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 8cb2d9446dc7fce4ab79978576ec6219
+    m_importFrom: Assets/Framework/Editor/Excel/dailyTask.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: bdf3001ae0d7c4d8985df663bcb93343
+    m_importFrom: Assets/Framework/Editor/Excel/guide.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5f23c143801684cfcaffd5960a2d3e79
+    m_importFrom: Assets/Framework/Editor/Excel/trip.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 9a9f2adcdbdf51840afff3e6ea4b6b6a
+    m_importFrom: Assets/Framework/Editor/Excel/dailyTile.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 65a62e97018454efe8b285562aed6896
+    m_importFrom: Assets/Framework/Editor/Excel/language.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 078684bb1e4474540922ca121bca8cb3
+    m_importFrom: Assets/Framework/Editor/Excel/product_currency.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: b2233c02964362a4fa0d3c9fa3c49efd
+    m_importFrom: Assets/Framework/Editor/Excel/petTaskReward.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ba5d24024b174460fb4a5df407549afd
+    m_importFrom: Assets/Framework/Editor/Excel/stageExpand2.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a97e6d05228e245e18e8e1cb8beae524
+    m_importFrom: Assets/Framework/Editor/Excel/dailyReward.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ce9a14f2a9bce4254b24f6478af005d5
+    m_importFrom: Assets/Framework/Editor/Excel/item.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 7319c88328fb08d4386e196e105d205d
+    m_importFrom: Assets/Framework/Editor/Excel/shop.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 49fe16621ff344642ae1bf47a32c1f34
+    m_importFrom: Assets/Framework/Editor/Excel/randomname.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4dee5d69b8b88ec4eb96b047212b80a1
+    m_importFrom: Assets/Framework/Editor/Excel/trans_dict.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 44c101c24e0da4195939f24e49f4a700
+    m_importFrom: Assets/Framework/Editor/Excel/commonString.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1e1807b579b7d45e8954f4e353d7877b
+    m_importFrom: Assets/Framework/Editor/Excel/EditShape.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1b9aa14decc0abc4989a3e32253ac19a
+    m_importFrom: Assets/Framework/Editor/Excel/task_gold_star.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 718eeac56daf54a218981b1b72da961e
+    m_importFrom: Assets/Framework/Editor/Excel/dailyChapter.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: acaba33713d291140981fc506c7a2842
+    m_importFrom: Assets/Framework/Editor/Excel/server_reward.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4c4143e7f43ad4161b3b1c7c37c6565b
+    m_importFrom: Assets/Framework/Editor/Excel/stageExpand.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 2dc23b082e4ac4939b86e3b5b086b657
+    m_importFrom: Assets/Framework/Editor/Formwork/stageFormwork.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 2bbfadab08ed999458fc7785150baa00
+    m_importFrom: Assets/Framework/Editor/Excel/activityTime.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a871a3b168c58d1479b4749a223a7f49
+    m_importFrom: Assets/Framework/Editor/Excel/GoldReserve.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 8e0df8be30711754ca2bd2d1a6bca6e1
+    m_importFrom: Assets/Framework/Editor/Excel/CatPass.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0602fa99928c48345a806f426de25944
+    m_importFrom: Assets/Framework/Editor/Excel/Tournament.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 360953809a2254285a54037514eac31c
+    m_importFrom: Assets/Framework/Editor/Excel/dailyChapter2.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 005504d8e10c9aa4d820b718a04a8566
+    m_importFrom: Assets/Framework/Editor/Excel/ads.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 3564f9b4acd44a447abfa24be5639e57
+    m_importFrom: Assets/Framework/Editor/Excel/task_boxTrip.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 94742a9af349d4a54a0108db89f459e5
+    m_importFrom: Assets/Framework/Editor/Excel/roomDetail.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a1e85eb9895a14ee58379e03af42d6f0
+    m_importFrom: Assets/Framework/Editor/Excel/chapter.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 16e90d38d4b34914cbe93113ad0978b6
+    m_importFrom: Assets/Framework/Editor/Excel/holidayRace.xlsx
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: db3cbb520891fd3429aaa7967f467d5a
+    m_importFrom: Assets/Framework/Editor/Excel/CatRace.xlsx
+    m_exportTo: 
+    m_variantName: 
   m_version: 2

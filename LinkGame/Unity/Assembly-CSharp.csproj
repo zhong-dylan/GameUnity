@@ -61,9 +61,13 @@
     <Compile Include="Assets/Framework/Scripts/Screen/UIManager.cs" />
     <Compile Include="Assets/Framework/Scripts/UI/UIAnimation.cs" />
     <Compile Include="Assets/Framework/Scripts/Sound/SoundManager.cs" />
+    <Compile Include="Assets/Framework/Tools/Csv/IntKeyContainerBase.cs" />
+    <Compile Include="Assets/Framework/Tools/Csv/ISingletonAsset.cs" />
     <Compile Include="Assets/Framework/Scripts/Screen/ScreenBackButton.cs" />
     <Compile Include="Assets/Framework/Scripts/UI/RecyclableListItem.cs" />
+    <Compile Include="Assets/Framework/Tools/Csv/ContainerFinder.cs" />
     <Compile Include="Assets/Framework/Scripts/Sound/ButtonSound.cs" />
+    <Compile Include="Assets/Framework/Tools/Csv/NotValueKeyContainerBase.cs" />
     <Compile Include="Assets/Game/Scripts/Cell.cs" />
     <Compile Include="Assets/Framework/Scripts/Utilities/SingletonComponent.cs" />
     <Compile Include="Assets/Framework/Scripts/UI/RecyclableListHandler.cs" />
