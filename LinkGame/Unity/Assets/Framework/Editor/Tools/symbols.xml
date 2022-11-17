@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <!-- 服务器选择（必须单选） -->
+    <symbol name="QA_SERVER" comment="外网QA服务器" type="server" />
+    <symbol name="DEV_SERVER" comment="外网开发服务器" type="server" />
+    <symbol name="KNIGHT_SERVER" comment="朋朋服务器" type="server" />
+    <symbol name="PRD_SERVER" comment="正式服务器" type="server" />
+<!--    <symbol name="GOV_SERVER" comment="版署审核服务器" type="server" />-->
+
+    <!-- 测试设置（正式包应全关） -->
+    <symbol name="ENABLE_GM" comment="是否开启GM模式" type="test" />
+    <symbol name="ENABLE_LOG" comment="是否开启unity日志" type="test" />
+    <symbol name="UNSAFE_IN_EDITOR" comment="在编辑器下使用刘海屏手机效果" type="test" />
+    <symbol name="ENABLE_ASSETBUNDLES" comment="在Editor时是否使用AB包" type="test" />
+    <symbol name="CLOSE_DOWNLOAD" comment="关闭热更机制，ab包读取不再考虑下载目录" type="test" />
+    <symbol name="CLOSE_UPDATE" comment="关闭强更机制" type="test" />
+
+    <!-- 游戏时间单位 -->
+    <symbol name="TIME_USE_UTC" comment="游戏是否使用UTC时间,不选为本地时间" type="time" />
+
+    <!-- 打ab包设置 -->
+    <symbol name="WHOLE_PACKAGE" comment="整包-打ab包使用-所有ab包入包体" type="ab" />
+    
+    <!-- 测试包必开，正式包必关 -->
+    <symbol name="ENABLE_TA_DEBUG" comment="是否开启数数测试模式（仅正式包关闭！）" type="offical" />
+</root>
+

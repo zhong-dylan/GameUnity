@@ -70,7 +70,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 61005fff28ad94a3a9246227c01eff51
-    m_Address: prefabs/screen/gold.prefab
+    m_Address: prefabs/screen/head.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: b93dda52dc01b4c0fa51f03e38278fd5

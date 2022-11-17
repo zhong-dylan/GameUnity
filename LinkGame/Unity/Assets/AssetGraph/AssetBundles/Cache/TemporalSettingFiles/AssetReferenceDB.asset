@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee4bc21567f434b598a3c96ba4946372, type: 3}
   m_Name: AssetReferenceDB
   m_EditorClassIdentifier: 
-  m_assets: []
+  m_assets:
+  - m_assetDatabaseId: 644e31908ca404bbc93fba7f4be3f1ac
+    m_importFrom: Assets/Framework/Scripts/Screen/UIManager.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 52ccbf87688c1406481c163145e1eab1
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/TemporalSettingFiles/AssetReferenceDB.asset
+    m_exportTo: 
+    m_variantName: 
   m_version: 2
